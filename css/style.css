@@ -27,7 +27,7 @@ body{
     color:#0b6cff;
 }
 .bg-blue{
-    background-color: #0b6cff;
+    background-color: #00439c;
 }
 .bg-dark-blue{
     background-color: #161c3b;
@@ -45,7 +45,8 @@ body{
 .black{
     color: black;
 }
-/* COLORS */
+/* /COLORS */
+
 /* NAVBAR */
 .nav-top{
     background-color: var(--black);
@@ -102,11 +103,9 @@ section#jumbotron{
 /* /SECTION2 */
 
 
-/* NAVBAR */
 
-/* /NAVBAR */
 
-/* COLORS */
+
 
 
 /* HOVERS */
@@ -120,4 +119,14 @@ div.col-12 img:hover:hover{
     cursor: pointer;
     filter: brightness(60%);
 }
+
+
+
+
+
+/* FOOTER */
+ul.white{
+    list-style: none;
+}
+/* /FOOTER */
 
