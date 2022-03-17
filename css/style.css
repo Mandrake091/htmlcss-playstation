@@ -28,6 +28,10 @@ body{
 .bg-blue{
     background-color: #0b6cff;
 }
+.bg-dark-blue{
+    background-color: #161c3b;
+}
+
 .grey{
     color: grey;
 }
