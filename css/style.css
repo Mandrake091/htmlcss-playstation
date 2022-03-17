@@ -31,6 +31,15 @@ body{
 .grey{
     color: grey;
 }
+.bg-grey{
+    background-color: grey;
+}
+.bg-light-grey{
+    background-color: lightgray;
+}
+.black{
+    color: black;
+}
 /* COLORS */
 /* NAVBAR */
 .nav-top{
