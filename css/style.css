@@ -21,7 +21,7 @@ body{
     background-color:#cd3d0f;
 }
 .bg-light-black{
-    background-color: #1f1f1f;
+    background-color: #303030;
 }
 .blue{
     color:#0b6cff;
@@ -53,7 +53,7 @@ body{
 }
 #logo-sony{
     justify-content: flex-end;
-    height: 10px;
+    height: 15px;
 }
 /* /NAVBAR */
 
