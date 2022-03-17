@@ -14,6 +14,7 @@ body{
     --red: #cd3d0f;
 }
 .white{
+    fill: white;
     color:white;
 }
 .bg-red{
@@ -82,7 +83,7 @@ section#jumbotron{
 #jumbotron{
     background-image: url("../img/jumbo-bg.png");
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-position: center center;
 }
