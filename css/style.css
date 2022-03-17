@@ -80,7 +80,7 @@ section#jumbotron{
     margin-top: 90px;
 }
 #jumbotron{
-    background-image: url("/img/jumbo-bg.png");
+    background-image: url("../img/jumbo-bg.png");
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -90,7 +90,7 @@ section#jumbotron{
 
 /* SECTION2 */
 #game-1{
-    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     width: 100%;
     height: 600px;
     background-size: cover;
