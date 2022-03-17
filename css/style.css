@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* COLORS */
+:root{
+    --black:#000000;
+    --darkgrey:#2e2e2e;
+    --blue:#0000ff;
+    --red: #cd3d0f;
+}
+.white{
+    color:white;
+}
+.bg-red{
+    background-color:#cd3d0f;
+}
+/* COLORS */
+/* NAVBAR */
+.nav-top{
+    background-color: var(--black);
+}
+#logo-sony{
+    justify-content: flex-end;
+    height: 10px;
+}
+/* /NAVBAR */
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* GENERAL */
+.debug{
+ border: 1px solid black;
+}
+
+/* /GENERAL */
+/* SECTION1 */
+section#jumbotron{
+    margin-top: 90px;
+}
+#jumbotron{
+    background-image: url("/img/jumbo-bg.png");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+/* SECTION1 */
+
+
+/* NAVBAR */
+
+/* /NAVBAR */
+.bg-green{
+    background-color: #1abc9c;
+}
+.green{
+    color: #1abc9c;
+}
+.white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-blue{
+    background-color: #2c3e50;
+}
+.blue{
+    color: #2c3e50;
+}
+.greyblue{
+    background-color: #3a546d;
+}
+/* COLORS */
+
+
+/* HOVERS */
+.img-wrapper:hover i{
+    opacity: 1;
+    cursor: pointer;
+}
+
+div.col-12 img:hover:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
