@@ -137,22 +137,21 @@ div.col-6.col-sm-4.col-lg-2 img{
 }
 /* / HOVER CARD GAME */
 
-img.card-img-top{
+div.container-fluid img.card-img-top{
     border-radius: 20px;
 }
 p.card-text{
     font-size: 15px;
 }
-img.card-img-top:hover{
+div.container-fluid img.card-img-top:hover{
     filter: brightness(110%);
     transform: scale(1.03);
     cursor: pointer;
 
 }
-img.card-img-top{
+div.container-fluid img.card-img-top{
     transition: 0.3s;
     filter: brightness(90%);
-
     filter: drop-shadow(0px 0px 5px #0000006b);
 }
 
