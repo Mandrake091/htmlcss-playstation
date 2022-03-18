@@ -58,6 +58,10 @@ body{
 nav{filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
 }
 
+div.collapse img{
+    width: 30px;
+    margin-left: 15px;
+}
 /* /NAVBAR */
 
 /* SCROLLBAR */
@@ -105,43 +109,51 @@ section#jumbotron{
 /* /SECTION2 */
 
 
-
-
-
-
-
-
 /* HOVERS */
 .img-wrapper:hover i{
     opacity: 1;
     cursor: pointer;
 }
-
-div.col-12 img:hover:hover{
-    transition: 0.3s;
-    cursor: pointer;
-    filter: brightness(60%);
-}
-
-div.col-6.col-sm-4{
+/* HOVER CARD GAME */
+div.col-6.col-sm-4.col-lg-2{
     border-radius: 30px;
     filter: opacity(80%);
     transition: top ease 0.3s;
     top: 0;
     position: relative;
 }
-div.col-6.col-sm-4:hover{
+div.col-6.col-sm-4.col-lg-2:hover{
     cursor: pointer;
     filter:opacity(100%);
     top: -5px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
 }
-div.col-6.col-sm-4 img:hover{
-    outline: 3px solid #0b6cff;
+div.col-6.col-sm-4.col-lg-2 img:hover{
+    outline: 2px solid #0b6cff;
     outline-offset: 3px;
 }
-div.col-6.col-sm-4 img{
+div.col-6.col-sm-4.col-lg-2 img{
     border-radius: 20px
+}
+/* / HOVER CARD GAME */
+
+img.card-img-top{
+    border-radius: 20px;
+}
+p.card-text{
+    font-size: 15px;
+}
+img.card-img-top:hover{
+    filter: brightness(110%);
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+img.card-img-top{
+    transition: 0.3s;
+    filter: brightness(90%);
+
+    filter: drop-shadow(0px 0px 5px #0000006b);
 }
 
 .btn{
@@ -149,22 +161,66 @@ div.col-6.col-sm-4 img{
 }
 .btn:hover{ 
     color: white;
-    outline: 3px solid #0b6cff;
+    outline: 2px solid #0b6cff;
     outline-offset: 3px;
 }
-div.col-4.col-md-2 img{
+
+/* HOVER ACCESSORY PS5 */
+div.col-4.col-md-2.mb-3 img{
     opacity: 50%;
     transition: 0.1s;
 }
-div.col-4.col-md-2:hover{
+div.col-4.col-md-2.mb-3:hover{
     cursor: pointer;
     opacity: 100%;
     outline: 3px solid #0b6cff;
     border-radius: 10px;
 }
-div.col-4.col-md-2:hover img{
+div.col-4.col-md-2.mb-3:hover img{
     opacity: 100%;
 }
+/* / HOVER ACCESSORY PS5 */
+
+/* HOVERS SOCIAL */
+div.col-6.col-sm-3:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+div.col-6.col-sm-3{
+    transition: 0.3s;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+/* /HOVER SOCIAL */
+
+/* HOVER DISCOUNT */
+div.col-12.col-md-4.pt-3{
+    transition: 0.3s;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+div.col-12.col-md-4.pt-3:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+/* / HOVER DISCOUNT */
+/* HOVER IMAGES */
+div.col-6.d-none img:hover{
+    cursor: pointer;
+    filter: drop-shadow(10px 5px 5px #00000067);
+}
+div.col-6.d-none img{
+    transition:ease-in-out 0.2s;
+}
+
+div.col-6.d-none.d-lg-flex img{
+    cursor: pointer;
+    transition:ease-in-out 0.2s;
+}
+div.col-6.d-none.d-lg-flex:hover{
+    filter: contrast(115%);
+}
+
+
+
 
 
 /* FOOTER */
