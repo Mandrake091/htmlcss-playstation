@@ -114,7 +114,7 @@ li a.show i.fa-chevron-down{
   
   @keyframes slideIn {
     0% {
-      transform: translateY(1rem);
+      transform: translateY(-2rem);
       opacity: 0;
     }
   
@@ -124,7 +124,7 @@ li a.show i.fa-chevron-down{
     }
   
     0% {
-      transform: translateY(1rem);
+      transform: translateY(-2rem);
       opacity: 0;
     }
   }
