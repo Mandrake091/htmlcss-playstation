@@ -11,7 +11,7 @@ body{
 :root{
     --black:#000000;
     --darkgrey:#2e2e2e;
-    --blue:#0000ff;
+    --blue:#0b6cff;
     --red: #cd3d0f;
 }
 .white{
@@ -55,13 +55,102 @@ body{
     justify-content: flex-end;
     height: 15px;
 }
-nav{filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+nav{
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+.dropdown-toggle::after{
+    display: none;
+}
+li a.show i.fa-chevron-down::before{
+    transform: rotate(180deg);
+}
+.my_button{
+    border-radius: 10px;
+    margin:10px 5px;
+}
+li a.show i.fa-chevron-down{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+.my_dropdown_container{
+    position:relative;
+}
+.my_dropdown_li{
+    position:static;
+}
+.my_dropdown_ul{
+    transition: 0.3s;
+    border: none;
+}
+.my_dropdown_ul[data-bs-popper]{
+    margin-top: 0;
+    border-radius: 0;
+    width: 100%;
 }
 
-div.collapse img{
-    width: 30px;
-    margin-left: 15px;
+
+.nav_li_dropdown_items{
+    color: var(--blue);
+    list-style-type: disc;
+    cursor: pointer;
 }
+.my_dropdown_ul .my_button{
+    transition:0.1s;
+}
+
+.my_dropdown_ul .my_button:hover{
+    outline: 2px solid #0b6cff;
+    outline-offset: 2px;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .animate {
+      animation-duration: 0.7s;
+      -webkit-animation-duration: 0.6s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
 /* /NAVBAR */
 
 /* SCROLLBAR */
