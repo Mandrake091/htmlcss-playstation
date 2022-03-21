@@ -196,7 +196,12 @@ section#jumbotron{
 
 }
 /* /SECTION2 */
-
+#jumbotron-ps-store{
+    padding-top: 100px;
+    background-image: url("../bonus/img/right-image.webp");
+    background-size: cover;
+    background-position: center center;
+}
 
 /* HOVERS */
 .img-wrapper:hover i{
@@ -306,11 +311,6 @@ div.col-6.d-none.d-lg-flex img{
 div.col-6.d-none.d-lg-flex:hover{
     filter: contrast(115%);
 }
-
-
-
-
-
 /* FOOTER */
 ul.white{
     list-style: none;
