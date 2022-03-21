@@ -87,6 +87,10 @@ li a.show i.fa-chevron-down{
     border-radius: 0;
     width: 100%;
 }
+div.collapse.navbar-collapse>img{
+   width: 30px;
+   padding-left: 5px;
+}
 
 
 .nav_li_dropdown_items{
